@@ -48,8 +48,4 @@ We will be using git throughout the semester.  Each project much be forked and 
 
 - [ ] When you have completed the website, submit your repository URL
 
-<<<<<<< HEAD
 The URL you used for layout is: https://www.hangar15bicycles.com/
-=======
-The URL you used for layout is: https://www.hangar15bicycles.com/
->>>>>>> 8f4188d9cf530d6e6a3c1c053ca9f7a74d4a583e
