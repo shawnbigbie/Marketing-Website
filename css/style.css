@@ -2,12 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
 
-/*
-	Ion by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 /* Basic */
 
 	body {
@@ -15,7 +9,7 @@
 	}
 
 	body, input, select, textarea {
-		color: #555f66;
+		color: #fff;
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
@@ -45,7 +39,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #666f77;
+		color: #4e91cb;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -64,8 +58,10 @@
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1em;
 		line-height: 1.5em;
+		font-weight: bold;
+		color: black;
 	}
 
 	h4 {
@@ -155,7 +151,7 @@
 	}
 
 	header p {
-		color: #bbb;
+		color: #000000;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -485,6 +481,11 @@
 				width: 100%;
 			}
 
+			.image.bike img {
+				display: block;
+				width: auto;
+			}
+
 /* List */
 
 	ol {
@@ -810,14 +811,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #76a9d7;
+				background-color: #4e91cb;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #4e91cb;
+				background-color: #76a9d7;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -827,11 +828,15 @@
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #555f66 !important;
+			background-color: #000000 !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 			color: #fff !important;
 			cursor: default;
 			opacity: 0.25;
+		}
+
+		.button.special {
+			text-transform: none;
 		}
 
 /* Wrapper */
@@ -846,7 +851,7 @@
 		}
 
 		.wrapper.style2 {
-			background: #192024;
+			background: rgb(9, 11, 12);
 			color: #c5c7c8;
 		}
 
@@ -864,7 +869,7 @@
 			}
 
 				.wrapper.style2 .button.alt:hover {
-					background-color: rgba(144, 144, 144, 0.275);
+					background-color: #4e91cb;
 				}
 
 				.wrapper.style2 .button.alt:active {
@@ -883,9 +888,9 @@
 
 	#header {
 		background: #fff;
-		color: #555f66;
+		color: #000000;
 		cursor: default;
-		height: 3em;
+		height: 3.5em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -896,7 +901,7 @@
 	}
 
 		#header h1 {
-			color: #666f77;
+			color: #000000;
 			font-weight: 500;
 			height: inherit;
 			left: 1.25em;
@@ -939,13 +944,13 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #555f66;
+						color: #000000;
 						display: inline-block;
 						text-decoration: none;
 					}
 
 						#header nav > ul > li a:hover {
-							color: #629DD1;
+							color: rgb(66, 146, 216);
 						}
 
 					#header nav > ul > li:first-child {
@@ -977,15 +982,16 @@
 /* Banner */
 
 	#banner {
-		background-color: #666666;
-		background-image: url("../images/banner.jpg");
+		background-color: #000000;
+		background-image: url("../images/header\ bike.jpeg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
-		color: #d8d8d8;
+		color: #000000;
 		padding: 14em 0;
 		text-align: center;
 		position: relative;
+		box-shadow: 0px 5px 5px rgb(151, 151, 151);
 	}
 
 		#banner:before {
@@ -1008,7 +1014,8 @@
 			}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #ffffff;
+			color: #fff;
+			text-shadow: 2px 2px #000000;
 		}
 
 		#banner .button.alt {
@@ -1042,6 +1049,8 @@
 		#banner p {
 			font-size: 1.5em;
 			margin-bottom: 2em;
+			color: #fff;
+			text-shadow: 2px 2px #000000;
 		}
 
 			#banner p a {
@@ -1052,7 +1061,7 @@
 /* Footer */
 
 	#footer {
-		background: #f8f8f8;
+		background: #000000;
 		padding: 4em 0 6em 0;
 	}
 
@@ -1083,5 +1092,5 @@
 				}
 
 		#footer .icons a {
-			color: #bbb;
+			color: #4e91cb;
 		}
